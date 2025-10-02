@@ -73,7 +73,7 @@ transform: scale(1.1);
 .div-text {
     background-image: url(imagens/here-3792307_1280.png);
     background-position: center;
-    background-size: ;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
