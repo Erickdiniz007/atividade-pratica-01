@@ -58,15 +58,15 @@
             .entrar:hover {
                 transform: scale(1.1);
             }
-            
-            .senha{
+
+            .senha {
                 display: flex;
                 margin-left: 5px;
                 gap: 10px;
             }
 
             .senha a {
-                
+
                 color: rgb(255, 255, 255);
                 text-decoration: none;
             }
@@ -74,4 +74,5 @@
             .inpt {
                 background-color: rgba(240, 248, 255, 0.466);
                 border: 0;
+                outline: none;
             }

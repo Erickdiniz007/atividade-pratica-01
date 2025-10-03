@@ -34,14 +34,22 @@ body {
     transition: 0.5s;
 }
 
+.entrar a {
+    width: 20px;
+    height: 200px;
+
+}
+
 .entrar:hover {
     transform: scale(1.1);
 }
 
 
+
 .inpt {
     background-color: rgba(240, 248, 255, 0.466);
     border: 0;
+    outline: none;
 }
 
 .email {

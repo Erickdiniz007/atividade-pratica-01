@@ -1,0 +1,157 @@
+/* cabeçalho*/
+.cabecalho {
+    background-color: #1f5044;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.cabecalho img {
+    width: 100px;
+    height: 100px;
+}
+
+.div-logo h1 {
+    color: #888888;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.div-frase {
+    color: #cacaca;
+    font-size: 40px;
+}
+
+.div-list ul {
+    display: flex;
+    gap: 30px;
+}
+
+.div-list li,
+a {
+    color: #889c97;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.8s;
+}
+
+.div-list li,
+a:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
+
+.cabecalho a button {
+    background-color: rgba(64, 179, 245, 0.822);
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.cabecalho a button:hover {
+    background-color: rgba(0, 162, 255, 0.822);
+    transform: scale(1.1);
+}
+
+/*sessao unica*/
+section {
+    background-image: url(imagens/here-3792307_1280.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+div h1 {
+    color: black;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div p {
+    font-size: 25px;
+    color: #3f3f3f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    text-align: justify;
+}
+
+span {
+    color: red;
+}
+
+
+
+
+/*rodapé*/
+
+footer {
+    background-color: #1f5044;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+footer div {
+    width: 300px;
+}
+
+footer h4 {
+    color: aliceblue;
+    font-size: 25px;
+
+}
+
+footer p {
+    color: rgba(250, 235, 215, 0.63);
+}
+
+footer ul,
+li {
+    color: rgba(250, 235, 215, 0.63);
+
+
+}
+
+.log-2 {
+    width: 80px;
+    height: 80px;
+}
+
+.icn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icn a,
+img {
+    height: 25px;
+}
+
+.local {
+    display: flex;
+    gap: 15px;
+}
