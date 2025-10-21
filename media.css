@@ -4,10 +4,11 @@
         align-items: center;
         justify-content:center;
         flex-wrap: wrap;
+        gap: 20px;
     }
 
     .cabecalho img{
-        width: 40%;
+        width: 30%;
     }
 
     .cabecalho h1{
@@ -16,10 +17,10 @@
     }
 
     .div-logo{
-        gap: 10px;
+        gap: 30px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .div-frase h2{
@@ -37,6 +38,7 @@
     }
 
     .cabecalho a button{
+        gap: 30px;
         font-size: 1.7rem;
         padding: 1rem;
     }
@@ -53,7 +55,7 @@
         flex-wrap: wrap;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .sec-04{
@@ -68,7 +70,7 @@
 
 
 
-@media(max-width: 320px){
+@media(max-width: 480px){
     .cabecalho{
         display: flex;
         align-items: center;
@@ -81,7 +83,7 @@
     }
 
     .cabecalho h1{
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
 
     .div-logo{
@@ -92,15 +94,15 @@
 
     .div-frase h2{
         margin: 0;
-        font-size: 2.3rem;
+        font-size: 2.9rem;
     }
 
     .div-list li a{
-        font-size: 1.4rem;
+        font-size: 1.9rem;
     }
 
     .div-list ul{
-        gap: 26px;
+        gap: 30px;
         padding: 7px;
     }
 
