@@ -8,12 +8,12 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
-          padding: 10px;
+          padding: 0.6rem;
       }
 
       .cabecalho img {
-          width: 100px;
-          height: 100px;
+          width: 6.25rem;
+          height: auto;
       }
 
       .div-logo h1 {
