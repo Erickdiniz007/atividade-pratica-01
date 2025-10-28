@@ -125,6 +125,15 @@
         flex-wrap: wrap;
     }
 
+    .sec-3{
+        background-attachment:local;
+       padding: 10rem; 
+    }
+
+    .sec-04 img {
+        width:100% ;
+    }
+
     .sec-04{
         flex-wrap: wrap
     }
